@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #ffffff;
+    color: black;
+    font-family: Lato,sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+.logo {
+
+   height: 70px;
+   width: auto;
+   float: left;
+   margin-top: 30px;
+ 
+}
+
+.logo:hover {
+   cursor: pointer;
+}
+
+.main-nav {
+   float: right;
+   list-style: none;
+   margin-top: 55px;
+  
+}
+#logo-name{
+   float: left;
+   font-size: 40px;
+   margin-top: 45px;
+   margin-left: 1%;
+   color:#262525;
+}
+.main-nav li {
+   display: inline-block;
+   margin-left: 30px;
+   /* margin-right: 40px; */
+   
+}
+.btn1{
+   border:3px solid black;
+   border-radius:5px;
+   padding: 10px 30px;
+}.btn2{
+   /* border:1px  #0084FFk; */
+   border-radius: 5px;
+   padding: 10px 30px;
+   background-color:#0084FF;
+   color:#FDFDFD;
+}
+a{
+   text-decoration: none;
+   color:#3D3B3B;
+}
+section{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 80px 10px;
+    margin-top: -70px;
+ }
+ footer{
+    background-color: black;
+    font-size: 80%;
+    height: 200px;
+    color: #ffffff;
+ }
+  #footer-img{
+    width: 80px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 70px;
+   
+  }
+  #head{
+    color: white;
+    float: left;
+    width:10px;
+    font-size: 50px;
+    margin-top:65px;
+    padding-left: 10px;
+  }
+   footer p a{
+       margin-top:10px ;
+       font-size: 15px;
+       color:#ffffff;
+   }
+   footer p a:hover{
+    cursor: pointer;
+   }
+   .link{
+    padding-top:15px
+   }
+   .set2{
+     margin-top: 10px;
+   }
+  .set3{
+    list-style: none;
+     float: right;
+    color: white;
+  }
+  
+  .socail_network{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  #set3{
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  ion-icon {
+    cursor: pointer;
+  }
+  footer li{
+    display: inline-block;
+     margin-right: 20px;
+     margin-top:5px;
+
+ }
+ h1{
+    text-align: center;
+    margin-top: -5px;
+}
+ #para{
+   margin-top: 30px;
+   text-align: justify;
+ }

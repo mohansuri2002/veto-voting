@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <img class="logo" src="logo1.jpg" alt="logo">
+            <h1 id="logo-name">Veto</h1>
+            <ul class="main-nav">
+                <li><a href="#about_us" class="btn">Back</a></li>
+                <li><a href="#join" class="btn1">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col span-1-of-2 profile_sec">
+                <ul class="profile_status">
+                    <div class="profile-pic">
+                        <label class="-label" for="file">
+                            <span class="glyphicon glyphicon-camera"></span>
+                            <span >Change Image</span>
+                        </label>
+                        <input id="file" type="file" onchange="loadFile(event)" />
+                        <img  class="profile"
+                            src="https://cdn.pixabay.com/photo/2017/08/06/21/01/louvre-2596278_960_720.jpg" id="output"
+                            width="200" />
+                    </div>
+                    <li><b>Name: </b><span>None</span></li>
+                    <li><b>Mobile no.: </b><span>None</span></li>
+                    <li><b>Address: </b><span>None</span></li>
+                    <li><b>Status: </b><span>None</span></li>
+                </ul>
+
+            </div>
+            <div class="col span-1-of-2 ">
+                <div class="vote_member">
+                <div class="vote_list">
+                    <ul>
+                        <li><b>Name</b><span>None</span></li>
+                        <li><b>Vote:</b><span>None</span></li>
+                        <li><button>Submit</button></li>
+                    </ul>
+                </div>
+                <div class="vote_list">
+                    <ul>
+                        <li><b>Name</b><span>None</span></li>
+                        <li><b>Vote:</b><span>None</span></li>
+                        <li><button>Submit</button></li>
+                    </ul>
+                </div>
+                <div class="vote_list">
+                    <ul>
+                        <li><b>Name</b><span>None</span></li>
+                        <li><b>Vote:</b><span>None</span></li>
+                        <li><button>Submit</button></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <img id="footer-img" src="logo2.jpg" alt="">
+                <h1 id="head">Veto</h1>
+            </div>
+            <div class="col span-1-of-3 set2">
+                <p id="link"><a href="#link">Link</a></p>
+                <br>
+                <p><a href="#privacy">Privacy policy</a></p>
+                <br>
+                <p><a href="#Term_condition">Terms & conditions</a></p>
+            </div>
+            <div class="col span-1-of-3 ">
+                <div id="set3">Connect with us</div>
+                <ul>
+                    <li>
+                        <ion-icon class="socail_network" name="logo-linkedin"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon class="socail_network" name="logo-facebook"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon class="socail_network" name="logo-instagram"></ion-icon>
+                    </li>
+                    <li>
+                        <ion-icon class="socail_network" name="mail"></ion-icon>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var loadFile = function (event) {
+            var image = document.getElementById("output");
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+      
+    </script>
+
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
